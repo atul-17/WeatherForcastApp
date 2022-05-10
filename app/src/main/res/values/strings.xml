@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Apps10xSampleProject</string>
+    <string name="error_msg">Something went wrong at our end!</string>
+</resources>
