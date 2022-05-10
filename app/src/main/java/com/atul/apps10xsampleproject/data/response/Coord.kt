@@ -1,4 +1,4 @@
-package com.atul.apps10xsampleproject.data
+package com.atul.apps10xsampleproject.data.response
 
 import com.google.gson.annotations.SerializedName
 
