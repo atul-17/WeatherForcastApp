@@ -21,14 +21,14 @@
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="100dp"
         android:layout_height="50dp"
-        android:background="@color/retry_button_bg"
-        android:text="Retry"
         android:layout_below="@+id/tvErrorMsg"
-        android:layout_marginTop="44dp"
         android:layout_centerInParent="true"
-        android:textColor="@color/white"
+        android:layout_marginTop="44dp"
+        android:id="@+id/btnRetry"
+        android:background="@color/retry_button_bg"
         android:fontFamily="@font/roboto_regular"
+        android:text="Retry"
 
-        />
+        android:textColor="@color/white" />
 
 </RelativeLayout>

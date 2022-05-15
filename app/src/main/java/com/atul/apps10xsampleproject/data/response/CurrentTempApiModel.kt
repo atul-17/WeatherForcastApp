@@ -1,6 +1,7 @@
 package com.atul.apps10xsampleproject.data.response
 
 import com.google.gson.annotations.SerializedName
+import java.io.Serializable
 
 
 data class CurrentTempApiModel (
@@ -19,4 +20,4 @@ data class CurrentTempApiModel (
     @SerializedName("name"       ) var name       : String?            = null,
     @SerializedName("cod"        ) var cod        : Int?               = null
 
-)
+) : Serializable
