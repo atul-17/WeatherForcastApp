@@ -1,6 +1,6 @@
 package com.atul.apps10xsampleproject.utils
 
-import com.atul.apps10xsampleproject.data.response.WeatherApiService
+import com.atul.apps10xsampleproject.data.retrofit_response.WeatherApiService
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 

@@ -1,11 +1,9 @@
-package com.atul.apps10xsampleproject.data.response
+package com.atul.apps10xsampleproject.data.retrofit_response
 
-import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
-import java.io.Serializable
 
 
- data class ModelForecastData  (
+data class ModelForecastDataEntity  (
 
   @SerializedName("cod"     ) var cod     : String?         = null,
   @SerializedName("message" ) var message : Int?            = null,

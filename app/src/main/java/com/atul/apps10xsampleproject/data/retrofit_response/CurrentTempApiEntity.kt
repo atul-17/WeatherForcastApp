@@ -1,10 +1,10 @@
-package com.atul.apps10xsampleproject.data.response
+package com.atul.apps10xsampleproject.data.retrofit_response
 
 import com.google.gson.annotations.SerializedName
 import java.io.Serializable
 
 
-data class CurrentTempApiModel (
+data class CurrentTempApiEntity (
 
     @SerializedName("coord"      ) var coord      : Coord?             = Coord(),
     @SerializedName("weather"    ) var weather    : ArrayList<Weather> = arrayListOf(),

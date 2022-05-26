@@ -10,22 +10,22 @@ import com.atul.apps10xsampleproject.ui.activities.WeatherInfoActivity
 
 class SomethingWentWrongFragment : Fragment() {
 
-    lateinit var somethingWentWrongScreenBinding: SomethingWentWrongScreenBinding
-
-    override fun onCreateView(
-        inflater: LayoutInflater,
-        container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View? {
-        somethingWentWrongScreenBinding =
-            SomethingWentWrongScreenBinding.inflate(layoutInflater)
-        return somethingWentWrongScreenBinding.root
-    }
-
-    override fun onStart() {
-        super.onStart()
-        somethingWentWrongScreenBinding.btnRetry.setOnClickListener {
-            (activity as WeatherInfoActivity?)?.setUpObservers()
-        }
-    }
+//    lateinit var somethingWentWrongScreenBinding: SomethingWentWrongScreenBinding
+//
+//    override fun onCreateView(
+//        inflater: LayoutInflater,
+//        container: ViewGroup?,
+//        savedInstanceState: Bundle?
+//    ): View? {
+//        somethingWentWrongScreenBinding =
+//            SomethingWentWrongScreenBinding.inflate(layoutInflater)
+//        return somethingWentWrongScreenBinding.root
+//    }
+//
+//    override fun onStart() {
+//        super.onStart()
+//        somethingWentWrongScreenBinding.btnRetry.setOnClickListener {
+//            (activity as WeatherInfoActivity?)?.setUpObservers()
+//        }
+//    }
 }

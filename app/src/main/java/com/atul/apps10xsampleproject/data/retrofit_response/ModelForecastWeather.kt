@@ -1,9 +1,9 @@
-package com.atul.apps10xsampleproject.data.response
+package com.atul.apps10xsampleproject.data.retrofit_response
 
 import com.google.gson.annotations.SerializedName
 
 
-data class Weather (
+data class ModelForecastWeather (
 
   @SerializedName("id"          ) var id          : Int?    = null,
   @SerializedName("main"        ) var main        : String? = null,
